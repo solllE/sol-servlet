@@ -6,75 +6,13 @@
 
 	<servlet>
 		<servlet-name>helloWorld</servlet-name>
-		<servlet-class>org.jacob.examples.HelloWorldServlet</servlet-class>
+		<servlet-class>org.sol.servlets.examples.HelloWorldServlet</servlet-class>
 	</servlet>
 
-	<servlet>
-		<servlet-name>hello</servlet-name>
-		<servlet-class>org.jacob.examples.HelloServlet</servlet-class>
-	</servlet>
-
-	<servlet>
-		<servlet-name>main</servlet-name>
-		<servlet-class>org.jacob.book.chap11.servlets.MainServlet</servlet-class>
-	</servlet>
-
-	<servlet>
-		<servlet-name>registerStep1</servlet-name>
-		<servlet-class>org.jacob.book.chap11.servlets.RegisterStep1Servlet</servlet-class>
-	</servlet>
-
-	<servlet>
-		<servlet-name>registerStep2</servlet-name>
-		<servlet-class>org.jacob.book.chap11.servlets.RegisterStep2Servlet</servlet-class>
-	</servlet>
-
-	<servlet>
-		<servlet-name>registerStep3</servlet-name>
-		<servlet-class>org.jacob.book.chap11.servlets.RegisterStep3Servlet</servlet-class>
-	</servlet>
-
-	<servlet>
-		<servlet-name>members</servlet-name>
-		<servlet-class>org.jacob.book.chap11.servlets.MemberListServlet</servlet-class>
-	</servlet>
-
+	
 	<servlet-mapping>
 		<servlet-name>helloWorld</servlet-name>
 		<url-pattern>/helloWorld</url-pattern>
 	</servlet-mapping>
 
-	<servlet-mapping>
-		<servlet-name>hello</servlet-name>
-		<url-pattern>/hello</url-pattern>
-	</servlet-mapping>
-
-	<servlet-mapping>
-		<servlet-name>main</servlet-name>
-		<url-pattern>/main</url-pattern>
-	</servlet-mapping>
-
-	<servlet-mapping>
-		<servlet-name>registerStep1</servlet-name>
-		<url-pattern>/register/step1</url-pattern>
-	</servlet-mapping>
-
-	<servlet-mapping>
-		<servlet-name>registerStep2</servlet-name>
-		<url-pattern>/register/step2</url-pattern>
-	</servlet-mapping>
-
-	<servlet-mapping>
-		<servlet-name>registerStep3</servlet-name>
-		<url-pattern>/register/step3</url-pattern>
-	</servlet-mapping>
-
-	<servlet-mapping>
-		<servlet-name>members</servlet-name>
-		<url-pattern>/members</url-pattern>
-	</servlet-mapping>
-
-	<error-page>
-		<location>/error.jsp</location>
-	</error-page>
 </web-app>
