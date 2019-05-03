@@ -27,7 +27,7 @@ public class MemberListServlet extends HttpServlet {
 	 * memberDao를 초기화 한다.
 	 */
 	@Override
-	public void init() throws ServletException {
+	public void init() throws ServletException { //처음 실행시에만 된다
 		try {
 			memberDao = new MemberDaoImpl();
 		} catch (NamingException e) {
